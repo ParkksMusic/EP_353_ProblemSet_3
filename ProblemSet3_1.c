@@ -7,6 +7,7 @@ char input;
 //Scans the entered note to be put through switch
 scanf("%c", &input);
 char note = input;
+//The switch statement and the branches off of it
 switch(note){
     case 'A' :
         printf("The corresponding integer value of A is 9\n");
